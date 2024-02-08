@@ -1,0 +1,63 @@
+h1, h2, .card-title{
+    color: #FA715C;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+header{
+    font-size: 1.5em;
+    background-color: #FAD35C;
+    padding: 10px;
+    width: 100%;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    width: 100%;
+    margin: 0 auto;
+}
+#container{
+    overflow: auto;
+}
+.column1, .column2{
+    float: left;
+    width: 48%;
+    margin: 1%;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 75%;
+}
+.card-title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+}
+.card-content{
+    padding: 2px 16px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img{
+    width: 75%;
+    height: 75%;
+}
+footer{
+    padding: 10px;
+    width: 100%;
+}
+footer h2{
+    text-align: left;
+}
+footer a{
+    color: #FA715C;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
