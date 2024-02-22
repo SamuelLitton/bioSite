@@ -11,6 +11,23 @@ header{
     padding: 10px;
     width: 100%;
 }
+nav{
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+nav a{
+    color: #FA715C;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 100%;
+}
+nav a:hover{
+
+    background-color: #FAC05C;
+}
 body{
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
